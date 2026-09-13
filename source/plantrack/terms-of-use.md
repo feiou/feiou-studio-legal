@@ -1,12 +1,12 @@
-# PlanTrack Terms of Use
+# WeekCoach Terms of Use
 
-**Version:** 1.0<br>
-**Last updated:** August 5, 2026<br>
-**Effective:** August 5, 2026
+**Version:** 1.1<br>
+**Last updated:** September 13, 2026<br>
+**Effective:** September 13, 2026
 
 These Terms of Use ("Terms") are a legal agreement between you and
-**Feiou Su** ("PlanTrack," "we," "us," or "our") governing your use of the
-PlanTrack iOS and iPadOS application and related sync service (together, the "Service"). By
+**Feiou Su** ("WeekCoach," "we," "us," or "our") governing your use of the
+WeekCoach iOS and iPadOS application and related sync service (together, the "Service"). By
 downloading, accessing, or using the Service, you agree to these Terms. If you do not agree, do not
 use the Service.
 
@@ -17,20 +17,20 @@ about the license to the App, the Apple Standard EULA controls.
 
 ## 1. Eligibility
 
-The App Store listing displays PlanTrack's current content age rating. That rating describes content
+The App Store listing displays WeekCoach's current content age rating. That rating describes content
 suitability; it does not determine legal capacity. You may use the Service only if you can legally
 agree to these Terms where you live or a parent or legal guardian agrees on your behalf. Do not use
 the Service if applicable law prohibits you from doing so.
 
-## 2. PlanTrack is a tracking tool, not medical care
+## 2. WeekCoach is a tracking tool, not medical care
 
-PlanTrack helps you organize and record fitness or wellness plans. The Service, imported plans,
+WeekCoach helps you organize and record fitness or wellness plans. The Service, imported plans,
 starter plans, progress summaries, estimates, reminders, Coach responses, and AI-generated content
 are for general informational and organizational purposes only.
 
-PlanTrack does not provide medical advice, diagnosis, treatment, rehabilitation, emergency
+WeekCoach does not provide medical advice, diagnosis, treatment, rehabilitation, emergency
 services, or a guarantee that any exercise, plan, calorie estimate, metric, or AI output is safe,
-accurate, complete, or suitable for you. PlanTrack is not a physician, physical therapist,
+accurate, complete, or suitable for you. WeekCoach is not a physician, physical therapist,
 dietitian, trainer, or other licensed professional, and the Service does not create a
 clinician-patient or trainer-client relationship.
 
@@ -48,26 +48,30 @@ severe shortness of breath, or other concerning symptoms.
 
 The Service does not continuously monitor you, your surroundings, vital signs, form, or equipment;
 it does not verify that an activity was performed correctly; and it cannot detect or respond to an
-emergency. Do not use PlanTrack for an emergency or as a safety-monitoring system. Contact local
+emergency. Do not use WeekCoach for an emergency or as a safety-monitoring system. Contact local
 emergency services when needed.
 
 ## 3. AI and imported content
 
-PlanTrack can organize plans you import and, if eligible and configured, can use Apple Intelligence
-or an OpenAI-compatible endpoint you connect with your own API key. AI output can be inaccurate,
+WeekCoach can organize plans you import and, if eligible and configured, can use Apple Intelligence
+or a compatible Chat Completions endpoint you connect with your own API key. AI output can be inaccurate,
 unsafe, incomplete, outdated, biased, or inconsistent. It may misunderstand your request or your
 recorded data. AI output is probabilistic and may differ even when the input is similar. We do not
 pre-screen, independently verify, endorse, or professionally supervise imported plans, starter
 plans, third-party content, or AI output. You must review every plan and response before relying on
 it, and you assume responsibility for decisions or activities based on it.
 
-PlanTrack does not provide hosted AI usage. A compatible device may be required for Apple
-Intelligence. If you connect an API key:
+WeekCoach does not host a model or include third-party AI usage. When you configure your own
+API connection, verification sends your key and a short test message to the entered endpoint;
+it may incur provider charges. Subsequent AI requests send the relevant plan and conversation
+context directly to that provider. Apple Health summaries require a separate, withdrawable
+opt-in that is off by default. Connecting a key does not grant that Health permission.
 
-- requests are sent directly to the endpoint and model you configure;
-- the provider's terms, privacy practices, availability, safety rules, and charges apply;
-- you are responsible for having the right to use the key and service; and
-- PlanTrack is not responsible for the provider, its output, or its fees.
+Use only a provider you are authorized to access and that is available under the rules applicable
+to your location. The provider's terms, privacy practices and charges apply. Protocol
+compatibility and a successful connection test do not establish regulatory approval, endorsement,
+or the accuracy or safety of its output. These disclosures do not waive rights or obligations
+that cannot lawfully be waived.
 
 Copy-and-paste handoffs and external links are actions you control. Review a progress report before
 sharing it because it can contain fitness, personal, or Apple Health summaries. You choose the
@@ -96,7 +100,7 @@ repository for information you are legally required or operationally unable to l
 
 The App creates a random account identifier to support the local-first experience and a possible
 later upgrade to sync. You can use the core tracker without Sign in with Apple. Cloud content sync
-requires PlanTrack Pro and Sign in with Apple.
+requires WeekCoach Pro and Sign in with Apple.
 
 You are responsible for maintaining control of your device, Apple ID, and any credentials you add.
 Notify us promptly if you believe your synced account is compromised. Sync is a convenience, not a
@@ -109,14 +113,14 @@ responsible for loss caused by your failure to secure them.
 You may request account deletion as described in the Privacy Policy. Deleting local data or the App
 does not necessarily delete cloud data, purchase history, or Keychain items.
 
-## 6. Purchases and PlanTrack Pro
+## 6. Purchases and WeekCoach Pro
 
-When offered, PlanTrack Pro is an in-app purchase that unlocks the features described on the
+When offered, WeekCoach Pro is an in-app purchase that unlocks the features described on the
 purchase screen at the time of purchase. The App Store is the source of truth for product type,
 price, taxes, currency, payment terms, purchase availability, and Family Sharing. Apple processes
-the transaction, while RevenueCat helps PlanTrack verify and restore the entitlement.
+the transaction, while RevenueCat helps WeekCoach verify and restore the entitlement.
 
-The purchase unlocks PlanTrack functionality; it does not include third-party AI usage, an AI API
+The purchase unlocks WeekCoach functionality; it does not include third-party AI usage, an AI API
 key, Apple hardware, internet access, or third-party fees. AI and sync features can depend on device
 compatibility, permissions, provider availability, and configuration.
 
@@ -134,7 +138,7 @@ these Terms limits mandatory consumer rights.
 
 Your license to install and use the App, including applicable device, account, Family Sharing, and
 transfer rules, is governed by the Apple Standard EULA and Apple's Usage Rules. These supplemental
-Terms govern PlanTrack-specific conduct and services.
+Terms govern WeekCoach-specific conduct and services.
 
 You may not:
 
@@ -146,7 +150,7 @@ You may not:
 - copy, reverse engineer, disassemble, modify, or create derivative works of the App except where
   applicable law or an applicable open-source license expressly permits it;
 - use the Service to infringe intellectual-property, privacy, confidentiality, or other rights; or
-- represent that PlanTrack or its AI output is professional medical advice or a certified safe
+- represent that WeekCoach or its AI output is professional medical advice or a certified safe
   exercise program;
 - use the Service to diagnose, treat, prescribe for, or make high-risk medical decisions for
   another person; or
@@ -165,14 +169,14 @@ but you are not required to provide feedback.
 ## 9. Third-party and Apple services
 
 The Service relies on or can connect to services such as Apple, Supabase, RevenueCat,
-TelemetryDeck, and an AI provider you choose. Third-party services are governed by their own terms
+our self-hosted FeiouTelemetry analytics infrastructure, and an AI provider you choose. Third-party services are governed by their own terms
 and privacy policies. We do not control and are not responsible for their content, security,
 availability, accuracy, decisions, changes, data handling, or charges. A link, integration, or
 compatibility statement does not mean that we endorse, control, or guarantee the third party. You
 must comply with all third-party terms that apply to your use of the Service, including your Apple,
 network, and AI-provider agreements.
 
-The Apple Standard EULA is the source of truth for the relationship among you, Apple, and PlanTrack
+The Apple Standard EULA is the source of truth for the relationship among you, Apple, and WeekCoach
 concerning the App license, maintenance, warranties, product and intellectual-property claims,
 legal compliance, and Apple's third-party-beneficiary rights. Nothing in these supplemental Terms
 changes or expands Apple's obligations. You must also comply with other third-party terms that
@@ -218,7 +222,7 @@ permits.
 
 ## 12. Limitation of liability
 
-To the maximum extent permitted by law, PlanTrack and its owner, affiliates, licensors, and service
+To the maximum extent permitted by law, WeekCoach and its owner, affiliates, licensors, and service
 providers will not be liable for indirect, incidental, special, consequential, exemplary, or
 punitive damages, or for lost data, profits, goodwill, business interruption, personal records, or
 the cost of substitute services, arising from or related to the Service, even if advised that such
@@ -227,7 +231,7 @@ Service, an activity or plan, AI or imported content, an inaccurate estimate, un
 access, data loss or sync conflict, or a third-party service.
 
 To the maximum extent permitted by law, our total liability for all claims relating to the Service
-will not exceed the greater of (a) the amount you paid for PlanTrack during the 12 months before the
+will not exceed the greater of (a) the amount you paid for WeekCoach during the 12 months before the
 event giving rise to the claim or (b) USD $50.
 
 The exclusions and cap apply regardless of the legal theory and even if a limited remedy fails of
@@ -237,7 +241,7 @@ its exclusion. Consumer-protection rights remain unaffected.
 
 ## 13. Indemnification
 
-To the extent permitted by law, you will defend, indemnify, and hold harmless PlanTrack, its owner,
+To the extent permitted by law, you will defend, indemnify, and hold harmless WeekCoach, its owner,
 affiliates, licensors, and service providers from third-party claims, liabilities, damages,
 judgments, losses, and reasonable legal costs arising from: (a) Your Content; (b) your unlawful or
 unauthorized use of the Service; (c) your material breach of these Terms; (d) your violation of
@@ -253,10 +257,10 @@ consent.
 ## 14. Governing law, disputes, and time to bring a claim
 
 The Apple Standard EULA supplies the governing-law and forum rules for the App license. For a claim
-arising only from these supplemental Terms or a PlanTrack-operated service, mandatory law and the
+arising only from these supplemental Terms or a WeekCoach-operated service, mandatory law and the
 courts with lawful jurisdiction apply.
 
-Before filing a formal claim, you and PlanTrack agree to try in good faith to resolve the issue by
+Before filing a formal claim, you and WeekCoach agree to try in good faith to resolve the issue by
 emailing **support@feioustudio.com**. This does not prevent either party from seeking urgent
 relief or using a small-claims or consumer process when available. The Apple Standard EULA may
 specify additional law and forum rules for the App license.
