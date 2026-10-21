@@ -19,9 +19,12 @@
       </nav>
 
 
+
+
+
 <h1 id="label-WeekCoach+Privacy+Policy">WeekCoach Privacy Policy</h1>
 
-<p><strong>Last updated:</strong> September 13, 2026<br> <strong>Effective:</strong> September 13, 2026</p>
+<p><strong>Last updated:</strong> October 21, 2026<br> <strong>Effective:</strong> September 13, 2026</p>
 
 <p>WeekCoach is operated by <strong>Feiou Su</strong> (“WeekCoach,” “we,” “us,” or “our”). This Privacy Policy explains how the WeekCoach iOS and iPadOS application (the “App”) handles information. It does not cover an AI provider, website, or other third-party service that you choose to use with the App.</p>
 
@@ -54,7 +57,7 @@
 
 <p>Your Health information can leave your device only when you direct an AI-related workflow:</p>
 <ul><li>
-<p><strong>Apple Intelligence:</strong> processing occurs on your device through Apple&#39;s system framework.</p>
+<p><strong>Apple Intelligence:</strong> on iOS 27 and later, the App prefers Apple&#39;s Private Cloud Compute when available, sending the relevant prompt, plan, and conversation context to Apple&#39;s service. Otherwise, a supported on-device model may process the request locally. Apple Health summaries are excluded whenever PCC may be used unless you separately opt in to remote Health sharing in Settings; you can withdraw that permission there.</p>
 </li><li>
 <p><strong>Your API key:</strong> the relevant prompt, which may include Health summaries, is sent directly to  the compatible Chat Completions endpoint you configured. Health summaries are excluded unless you separately  opt in to remote Health sharing in Settings; you can withdraw that permission there. The  provider&#39;s terms and privacy policy apply.</p>
 </li><li>
@@ -65,13 +68,13 @@
 
 <h3 id="label-Account+and+device+identifiers">Account and device identifiers</h3>
 
-<p>On first launch, the App creates a random installation/account identifier and stores it in the Keychain. It also attempts anonymous authentication with Supabase so the identifier can later be upgraded safely for optional sync. Anonymous authentication does not upload your plans or progress.</p>
+<p>On first launch, the App creates a random installation/account identifier and stores it in the Keychain. It also attempts anonymous authentication with Supabase so the identifier can later be upgraded safely for optional sync. Anonymous authentication does not upload your plans or progress. You do not need to sign in with Apple to purchase or use AI credits. We keep a server-side mapping between verified anonymous or Apple-linked account identifiers and their RevenueCat purchase wallets, plus a secure ownership proof on your device, so later sign-in preserves purchased credits and their expiry. Minimal billing ownership and revocation records may remain for accounting, fraud prevention and recovery after account deletion.</p>
 
 <p>If you choose Sign in with Apple for sync, we receive a Supabase user identifier and authentication information needed to maintain the session. Apple may provide an email address, including a private relay address, according to your Apple settings. We do not request your name.</p>
 
 <h3 id="label-Purchase+information">Purchase information</h3>
 
-<p>When WeekCoach Pro purchases are available, Apple processes the payment. RevenueCat receives a random App User ID, App Store receipt and transaction information, product and entitlement status, and related device or network metadata needed to offer, verify, restore, and support the purchase. We do not receive your full payment-card details.</p>
+<p>When WeekCoach Pro purchases are available, Apple processes the payment. RevenueCat receives a random App User ID, App Store receipt and transaction information, product and entitlement status, and related device or network metadata needed to offer, verify, restore, and support the purchase. We do not receive your full payment-card details. For AI credits, RevenueCat also processes your verified account/customer identifier, subscription status, credit grants, balance and debit/refund transaction identifiers. This billing processing occurs outside mainland China. RevenueCat does not receive your plan, conversation, Apple Health data or API keys through the credit system.</p>
 
 <h3 id="label-Analytics+and+diagnostics">Analytics and diagnostics</h3>
 
@@ -92,6 +95,12 @@
 <p>The random account identifier, authentication session, and any AI API key you add are stored in the Keychain. Your API key is not included in analytics, WeekCoach cloud sync, or purchase data; the App sends it only to the endpoint you configure when making a request.</p>
 
 <p>Local notifications are scheduled by iOS. WeekCoach does not operate a remote push-notification server.</p>
+
+<h3 id="label-WeekCoach+Cloud+AI">WeekCoach Cloud AI</h3>
+
+<p>After the in-app disclosure and consent, the App sends the relevant coaching brief, saved plan, change request, conversation and recent app-authored records through WeekCoach&#39;s Cloudflare-hosted service to third-party AI services used for the request. The currently configured provider is DeepSeek. Cloud requests exclude Apple Health data and API keys. Both the international and mainland-user service lanes may process data outside mainland China; choosing a lane is not a promise of local data residency.</p>
+
+<p>The app service keeps a resumable result for up to seven days. Submitted input is removed after completion or cancellation, or when its short-lived recovery period expires. Minimal identifiers, usage, fraud-prevention and billing-reconciliation records may remain as needed to operate the service, resolve a debit/refund and meet legal obligations. Third-party providers apply their own policies to information they receive; the seven-day app-service period is not a promise about a provider&#39;s independent retention. Creating a Cloud request is separate from enabling content sync.</p>
 
 <h3 id="label-Optional+cloud+sync">Optional cloud sync</h3>
 
@@ -136,7 +145,9 @@
 <p>We do not sell personal information. We do not use personal information or Apple Health information for targeted advertising, and we do not track you across other companies&#39; apps or websites.</p>
 
 <p>We share information only as follows:</p>
-<div class="table-wrap"><table><thead><tr><th scope="col">Recipient</th><th scope="col">Purpose and information</th></tr></thead><tbody><tr><td><a href="https://www.apple.com/legal/privacy/">Apple</a></td><td>App distribution, StoreKit purchases, Sign in with Apple, HealthKit permissions, on-device Apple Intelligence, and platform services. Apple handles information under its own terms and privacy notices.</td></tr><tr><td><a href="https://supabase.com/privacy">Supabase</a></td><td>Anonymous authentication for a stable account ID and, only after eligible Apple sign-in, storage and transport of the synced content listed above.</td></tr><tr><td><a href="https://www.revenuecat.com/privacy">RevenueCat</a></td><td>Purchase offering, receipt validation, entitlement status, restoration, and purchase support when purchases are configured.</td></tr><tr><td>FeiouTelemetry (our self-hosted Aptabase service)</td><td>Usage and reliability events, installation/session identifiers and metadata described above, processed on our hosting infrastructure.</td></tr><tr><td>Your chosen AI provider</td><td>Prompts and context, potentially including sensitive fitness or Health summaries, sent directly to the endpoint you configure when you choose to use your API key.</td></tr><tr><td>Authorities or transaction parties</td><td>Information when reasonably necessary to comply with law, protect rights and safety, investigate fraud or abuse, or complete a merger, financing, acquisition, or transfer. We will protect information appropriately during any transfer.</td></tr></tbody></table></div>
+
+<p>| Recipient | Purpose and information | |—|—| | <a href="https://www.apple.com/legal/privacy/">Apple</a> | App distribution, StoreKit purchases, Sign in with Apple, HealthKit permissions, Apple Intelligence (on-device and Private Cloud Compute), and platform services. Apple handles information under its own terms and privacy notices. | | <a href="https://supabase.com/privacy">Supabase</a> | Anonymous authentication for a stable account ID and, only after eligible Apple sign-in, storage and transport of the synced content listed above. | | <a href="https://www.revenuecat.com/privacy">RevenueCat</a> | Purchase offering, receipt validation, entitlement status, restoration, purchase support, and AI-credit grants, balances, debit/refund transaction identifiers. No plan or conversation content is sent for credit accounting. | | FeiouTelemetry (our self-hosted Aptabase service) | Usage and reliability events, installation/session identifiers and metadata described above, processed on our hosting infrastructure. | | Cloudflare and the Cloud AI provider (currently DeepSeek) | Hosting and processing of consented Cloud plan/Coach requests, account verification and short-lived request/result storage. Apple Health data and API keys are excluded. | | Your chosen AI provider | Prompts and context, potentially including sensitive fitness or Health summaries, sent directly to the endpoint you configure when you choose to use your API key. | | Authorities or transaction parties | Information when reasonably necessary to comply with law, protect rights and safety, investigate fraud or abuse, or complete a merger, financing, acquisition, or transfer. We will protect information appropriately during any transfer. |</p>
+
 <p>Service providers are required by contract or applicable law to protect information and process it only for authorized purposes. A third party you independently choose, such as an AI provider you configure or an app where you paste a report, is governed by its own terms and privacy practices.</p>
 
 <h2 id="label-5.+Retention+and+deletion">5. Retention and deletion</h2>

@@ -1,8 +1,8 @@
 # WeekCoach Terms of Use
 
-**Version:** 1.1<br>
-**Last updated:** September 13, 2026<br>
-**Effective:** September 13, 2026
+**Version:** 1.3<br>
+**Last updated:** October 21, 2026<br>
+**Effective:** October 21, 2026
 
 These Terms of Use ("Terms") are a legal agreement between you and
 **Feiou Su** ("WeekCoach," "we," "us," or "our") governing your use of the
@@ -53,16 +53,22 @@ emergency services when needed.
 
 ## 3. AI and imported content
 
-WeekCoach can organize plans you import and, if eligible and configured, can use Apple Intelligence
-or a compatible Chat Completions endpoint you connect with your own API key. AI output can be inaccurate,
+WeekCoach can organize plans you import and, when available and after the required consent, create
+or revise plans and answer Coach requests through WeekCoach Cloud AI. Eligible, configured devices
+can also use Apple Intelligence or a compatible Chat Completions endpoint you connect with your own API key. AI output can be inaccurate,
 unsafe, incomplete, outdated, biased, or inconsistent. It may misunderstand your request or your
 recorded data. AI output is probabilistic and may differ even when the input is similar. We do not
 pre-screen, independently verify, endorse, or professionally supervise imported plans, starter
 plans, third-party content, or AI output. You must review every plan and response before relying on
 it, and you assume responsibility for decisions or activities based on it.
 
-WeekCoach does not host a model or include third-party AI usage. When you configure your own
-API connection, verification sends your key and a short test message to the entered endpoint;
+WeekCoach Cloud AI uses third-party AI services through our backend. Requests can include your
+coaching brief, saved plan, conversation and recent app records, as disclosed before sending.
+Apple Health data and your API keys are excluded from this Cloud service. You review proposed
+plans before applying them. Cloud availability, request limits and AI credits are separate from
+any API account you connect yourself.
+
+When you configure your own API connection, verification sends your key and a short test message to the entered endpoint;
 it may incur provider charges. Subsequent AI requests send the relevant plan and conversation
 context directly to that provider. Apple Health summaries require a separate, withdrawable
 opt-in that is off by default. Connecting a key does not grant that Health permission.
@@ -120,9 +126,32 @@ purchase screen at the time of purchase. The App Store is the source of truth fo
 price, taxes, currency, payment terms, purchase availability, and Family Sharing. Apple processes
 the transaction, while RevenueCat helps WeekCoach verify and restore the entitlement.
 
-The purchase unlocks WeekCoach functionality; it does not include third-party AI usage, an AI API
-key, Apple hardware, internet access, or third-party fees. AI and sync features can depend on device
-compatibility, permissions, provider availability, and configuration.
+WeekCoach Pro may be offered as a monthly or yearly auto-renewing subscription with an eligible
+seven-day free trial. The purchase screen and Apple's confirmation show the actual price, billing
+period and trial eligibility. Unless canceled at least 24 hours before the trial or current period
+ends, the subscription renews at the displayed price. Manage or cancel it in your App Store account
+settings. Deleting the App or your WeekCoach account does not cancel an App Store subscription.
+
+Where offered, the trial includes 150 AI credits. After conversion to paid access, subscriptions
+grant 500 AI credits each month, including monthly grants during an annual subscription. Unused
+trial credits expire when the trial ends. Unused monthly credits expire at the next monthly grant
+or when paid access ends, whichever occurs first; they do not roll over. Turning off auto-renewal
+stops new grants when the paid subscription period ends; refunds can revoke credits under the
+applicable store and RevenueCat accounting rules. Existing lifetime Pro purchases retain their
+entitlement and are not converted into subscriptions or automatically granted recurring Cloud credits.
+
+Each Cloud reply request or plan draft request reserves 1 credit after any applicable free plan
+allowance. A Coach request that also returns a draft is one request, not two charges. Reopening an
+existing result does not spend another credit. Failed or canceled requests have no net credit
+charge; an interrupted payment or refund may need reconciliation before the balance is updated.
+Credits are service units, not money, and cannot be exchanged for cash or transferred between
+accounts. You can subscribe and use credits before signing in with Apple. Anonymous account verification happens automatically. If you later sign in with Apple, we link your verified purchase wallets to that account without recreating their balances or extending their expiry.
+
+Apple Intelligence and requests using your own API key do not use WeekCoach AI credits. Your API
+provider may charge separately. A subscription does not provide an external API key, Apple
+hardware, internet access or third-party fees. AI and sync features depend on compatibility,
+permissions, provider availability and configuration. Nothing here limits mandatory refund or
+consumer rights.
 
 If the App Store describes the product as a "one-time purchase," that describes the billing model,
 not a promise that the Service, every current feature, every third-party integration, or
