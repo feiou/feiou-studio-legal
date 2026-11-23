@@ -36,7 +36,7 @@ Like any internet request, these services receive your device's IP address and b
 
 ## iCloud sync (WildFocus Pro)
 
-With Pro, WildFocus syncs your logbook — walk records, notes, the wildlife photographs you earned and any personal photos you attached — through Apple CloudKit in your private iCloud database, so your other devices signed in to the same Apple account have it. Without Pro, or when iCloud is unavailable, the logbook stays on the device.
+While you have Pro, WildFocus syncs your logbook — walk records, notes, the wildlife photographs you earned and any personal photos you attached — through Apple CloudKit in your private iCloud database, so your other devices signed in to the same Apple account have it. Without Pro, or when iCloud is unavailable, the logbook stays on the device.
 
 Apple processes iCloud information under its own privacy policy and service terms. We do not operate a server that receives your logbook, and we cannot read your private iCloud data. Device and iCloud backups may keep additional copies according to your Apple settings.
 
@@ -48,7 +48,7 @@ If you allow notifications, WildFocus schedules local reminders on your device, 
 
 ## Purchases
 
-WildFocus Pro is a one-time in-app purchase handled by Apple through the App Store. Apple processes your payment; we do not receive your payment details or Apple Account information. The app checks with the App Store to confirm whether Pro is unlocked and to restore a previous purchase.
+WildFocus Pro is available as a monthly or yearly auto-renewing subscription or as a one-time lifetime purchase, all sold by Apple through the App Store. Apple processes your payment and manages renewals and cancellations; we do not receive your payment details or Apple Account information. The app checks with the App Store, on your device, whether Pro is unlocked, whether a subscription is still active, and to restore a previous purchase. You can manage or cancel a subscription in your Apple Account settings.
 
 ## How information is used and shared
 
@@ -62,7 +62,7 @@ If you contact support, we receive your email address, your message and any atta
 
 ## Retention and your choices
 
-Your logbook stays on your device until you remove the app. The free version shows the last 7 days of walks; older walks are kept on the device, not deleted, and appear again if you unlock Pro. The current app does not provide a control for deleting individual walks.
+Your logbook stays on your device until you remove the app. The free version shows the last 7 days of walks; older walks are kept on the device, not deleted, and appear again if you unlock Pro. If a subscription ends, nothing you saved is deleted; the free limits return. The current app does not provide a control for deleting individual walks.
 
 You can turn off App Lock, notifications and Live Activities at any time, and revoke WildFocus's Screen Time permission in Settings. You can manage WildFocus's iCloud data in your Apple account's iCloud settings. Removing the app removes its local data but does not by itself delete iCloud records or backups, and synced records may return after reinstalling. Other devices may keep their own copies. Contact support for guidance; we cannot access or erase your private iCloud records for you.
 
