@@ -7,6 +7,9 @@ Public privacy policies and supplemental terms for apps published by Feiou Su.
 - [HabitTab](https://feiou.github.io/feiou-studio-legal/apps/habittab/)
   - [Privacy Policy](https://feiou.github.io/feiou-studio-legal/apps/habittab/privacy/)
 
+- [WildFocus](https://feiou.github.io/feiou-studio-legal/apps/wildfocus/)
+  - [Privacy Policy](https://feiou.github.io/feiou-studio-legal/apps/wildfocus/privacy/)
+
 - [WeekCoach](https://feiou.github.io/feiou-studio-legal/apps/plantrack/)
   - [Privacy Policy](https://feiou.github.io/feiou-studio-legal/apps/plantrack/privacy/)
   - [Terms of Use](https://feiou.github.io/feiou-studio-legal/apps/plantrack/terms/)
